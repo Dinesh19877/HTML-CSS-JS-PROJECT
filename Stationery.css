@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.home-page1{
+width: 100%;
+height: auto;
+}
+
+.stationery{
+    margin-top:40px ;
+width: 100%;
+height: 300px;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./stationery/4550182576238_09_1260_1350x396.webp);
+background-size: 100% 100%;
+
+}

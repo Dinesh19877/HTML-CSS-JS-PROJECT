@@ -1,0 +1,415 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.itembox:hover{
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.nav-bar {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  top: 48px;
+  height: 60px;
+
+}
+#overshop{
+
+  background-color: #3e8e41;
+  border-radius: 50%;
+}
+nav {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 15%;
+  text-align: center;
+
+}
+
+nav ul li {
+  width: 90px;
+}
+
+nav a {
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+
+}
+
+nav a#logo {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 40px;
+  background-image: url(../img/logo.jpg);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 100px;
+}
+
+nav ul a {
+  color: black;
+  font-weight: 600;
+}
+
+nav ul a:hover {
+  border: 2px solid #ffffff;
+  background-color: #3e8e41;
+  border-radius: 50%;
+}
+
+
+#ham-menu {
+  display: none;
+  position: absolute;
+  right: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+nav ul.active {
+  left: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 910px) {
+  .slider{
+height: 450px;
+
+  }
+  #ham-menu {
+    display: block;
+    color: black;
+  }
+
+  nav ul li a{
+    color: white;
+
+  }
+
+  nav ul {
+    background-color:black;
+    position: fixed;
+    left: -200vw;
+    top: 100px;
+    width: 40%;
+    height: calc(100vh - 73.6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    line-height: 100px;
+
+  }
+
+  .search {
+    width: 50vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+footer {
+
+  width: 100%;
+  background: black;
+  color: black;
+
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.box .content:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  color: white;
+
+
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+  padding: 0 2px;
+  color: #d9d9d9;
+
+}
+
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+  background: #f12020;
+}
+
+.center .content .fas {
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.center .content .fas:hover {
+  background: #f12020;
+}
+
+.center .content .text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: white;
+}
+
+.center .content .phone {
+  margin: 15px 0;
+}
+
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+
+.right form .msg {
+  margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+
+
+
+.right form input {
+  height: 35px;
+}
+
+.right form .btn4 {
+  margin-top: 10px;
+}
+
+.right form .btn4 button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 20px;
+}
+
+.right form .btn4 button:hover {
+  background:transparent;
+  border: 1px solid red;
+  color: white;
+}
+
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+
+.bottom center span {
+  color: #656565;
+}
+
+.bottom center a {
+  color: #f12020;
+  text-decoration: none;
+}
+
+.bottom center a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .slide img{
+    height: 220px;
+    
+  }
+  .imgbug {
+  height: 250px;
+  position: relative;
+    bottom: 60px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: 5px 0;
+  }
+  #map {
+    width: 460%;
+    height: 230px;
+  }
+  
+}
+
+.map {
+  width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the button that triggers the dropdown menu */
+.ooo {
+  font-size: 30px;
+  text-transform: capitalize;
+  width: 80%;
+  text-align: center;
+  margin: -63px;
+  position: relative;
+  left: 60px;
+}
+
+
+/* Style the dropdown content (links) */
+.dropdown-content1 {
+  position: absolute;
+  background-color:white;
+  top: 30px;
+  right: -260px;
+  line-height: 40px;
+  display: none;
+  z-index: 1;
+width: 25pc;
+  height: 60vh;
+  border: solid;
+  white-space: break-spaces;
+
+}
+.dropdown-content1 p{
+position: absolute;
+left: 40px;
+color: black;
+line-height: 50px;
+
+}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+
+
+/* Add a border to the dropdown menu */
+.dropdown1 {
+  position: relative;
+}
+
+/* Add a background color to the dropdown button on hover */
+.dropdown1 p:hover {
+  border-bottom: 3px solid blue;
+  transition: 2s;
+}

@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #36454f;
+  
+  }
+
+  
+  .container .contact_data {
+    background: #fff;
+    width: 30pc;
+    border-radius: 02px;
+    border-top: 04px solid #47b2e4;
+    margin: 0 10px;
+    position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+  
+  .container .contact_data form {
+    padding: 0 1rem;
+  }
+  
+  .container .contact_data form input,
+  textarea {
+    width: 90%;
+    margin: 05px 0 0 10px;
+    padding: 07px 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    border-radius: 05px;
+  }
+  
+  .container .contact_data h2 {
+    margin: 1.5rem;
+    border-bottom: 0.2rem #47b2e4 solid;
+  }
+  
+  .container .contact_data label {
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  
+  .container .contact_data button {
+    margin: 20px 10px;
+    border: none;
+    padding: 10px 20px;
+    background: #47b2e4;
+    font-size: 1rem;
+    border-radius: 05px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .container .contact_data button:hover {
+    background: #3498db;
+    transition: 0.3s;
+    color: #fff;
+  }
+  
+  .container .contact_data2 {
+    background: #fff;
+    border-radius: 02px;
+    border-top: 04px solid #3498db;
+    width: 400px;
+    margin: 0 10px;
+  }
+  
+  .container .contact_data2 ul {
+    list-style: none;
+  }
+  
+  .container .contact_data2 ul li {
+    margin: 1.5rem 1rem;
+  }
+  
+  .container .contact_data2 ul li i {
+    font-size: 1.4rem;
+    color: #47b2e4;
+  }
+  
+  .container .contact_data2 ul li strong {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .container .contact_data2 ul li p {
+    font-size: 14px;
+    margin-left: 35px;
+  }
+  
+ 
